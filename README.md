@@ -1,0 +1,453 @@
+<a name="back-to-top"></a>
+
+<!-- *********************************************************************** -->
+<!-- 0.1) INTRO SHIELDS -->
+<!-- *********************************************************************** -->
+
+[![Github Follow][github-follow-badge]][github-follow-url]
+[![LinkedIn Small][linkedin-badge-small]][linkedin-url]
+[![Hackerrank Small][hackerrank-badge-small]][linkedin-url]
+[![Ask Me Anything][ama-badge]][ama-url]
+[![Say Thanks!][say-thanks-badge]][say-thanks-url]
+
+<!-- *********************************************************************** -->
+<!-- 0.3) PROJECT TITLE -->
+<!-- *********************************************************************** -->
+
+<!-- omit in toc -->
+
+# Pirate Crew
+[![License][license-badge]][license-url]
+[![Forks][forks-badge]][forks-url]
+[![Stars][stars-badge]][stars-url]
+[![Watchers][watchers-badge]][watchers-url]
+
+A simple Django web application implementing CRUD operations and authentication.
+
+_**Pirate Crew App:** sign up and add your Pirate Crew 📚 in our app 😃!!! Share them with others and add your favorites in your collection 🙌. Also update or delete details if you need 📝!!!._
+
+<!-- > Demo available in following [link](http://3.138.60.125/). Application deployed in AWS. -->
+
+
+<br>
+
+<p align="center">
+  <img src="images/login-animation.gif" alt="login-animation" width="75%"/>
+</p>
+<p align="center">
+  <img src="images/main-animation.gif" alt="main-animation" width="75%"/>
+</p>
+ 
+---
+
+<!-- *********************************************************************** -->
+<!-- 0.2) TABLE OF CONTENTS -->
+<!-- *********************************************************************** -->
+
+<!-- omit in toc -->
+
+## Table of Contents
+
+- [Pirate Crew](#pirate-crew)
+  - [Table of Contents](#table-of-contents)
+  - [About The Project](#about-the-project)
+  - [Technologies](#technologies)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+  - [Contact Me](#contact-me)
+  - [Support](#support)
+  - [License](#license)
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+---
+
+<!-- *********************************************************************** -->
+<!-- I) ABOUT THE PROJECT -->
+<!-- *********************************************************************** -->
+
+## About The Project
+
+Educational project with the purpose of developing a basic implementation of a full-stack web application using Django framework and Python and HTML languages.
+
+SQLite Database in repository with data already created. Existing users with following details if wanted to interact with their accounts:
+
+* John Doe: 
+  * email: johndoe@email.com
+  * password: john123456
+* Peter Phillips:
+  * email: peterphillips@email.com
+  * password: peter123456
+* Sara Millers: 
+  * email: saramillers@email.com
+  * password: sara123456
+
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+---
+
+<!-- *********************************************************************** -->
+<!-- II) TECHNOLOGIES -->
+<!-- *********************************************************************** -->
+
+## Technologies
+
+The following technologies are used for the implementation of this project:
+
+[![HTML5][html5-badge]][html5-url]
+[![Javascript][javascript-badge]][javascript-url]
+[![NPM][npm-badge]][npm-url]
+
+[![ReactJS][react-js-badge]][react-js-url]
+[![React-Router][react-router-badge]][react-router-url]
+[![Bootstrap][bootstrap-badge]][bootstrap-url]
+[![Axios][axios-badge]][axios-url]
+[![Lodash][lodash-badge]][lodash-url]
+
+[![NodeJS][node-js-badge]][node-js-url]
+[![ExpressJS][express-js-badge]][express-js-url]
+[![MongoDB][mongodb-badge]][mongodb-url]
+
+[![Dotenv][dotenv-badge]][dotenv-url]
+[![JWT][jwt-badge]][jwt-url]
+[![Socket.io][socket-io-badge]][socket-io-url]
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+---
+
+<!-- *********************************************************************** -->
+<!-- III) GETTING STARTED -->
+<!-- *********************************************************************** -->
+
+## Getting Started
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- 3.1) Prerequisites -->
+<!-- ----------------------------------------------------------------------- -->
+### Prerequisites
+
+`Python3` and a `pip3` are required for the setup of this web application.
+
+> Installation instructions [here][install-python-and-pip].
+
+For easy management of packages and environments `pipenv` is used. For installing this tool globally run:
+
+```sh
+pip3 install pipenv
+```
+
+> **NOTE:** At the time of the implementation of this project, `Python v3.9.13`, `pip v22.3.1` and `pipenv v2022.9.24` were used.
+
+
+<!-- 3.2) Installation -->
+<!-- ----------------------------------------------------------------------- -->
+### Installation
+
+To get a copy of this project and run it in your local environment, follow the steps listed below.
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/BigSamu/Pirate_Crew.git
+   ```
+
+2. Go into the repository
+
+   ```sh
+   cd Pirate_Crew
+   ```
+
+3. Activate virtual environemnt
+
+   ```sh
+   pipenv shell
+   ```
+
+4. Install required pyhon packages or dependencies
+
+   ```sh
+   pipenv install
+   ```
+
+5. Run application
+
+    ```sh
+   python manage.py runserver
+   ```
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- 3.3) Usage -->
+<!-- ----------------------------------------------------------------------- -->
+### Usage
+
+After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost:8000](http://localhost:8000/)
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+---
+
+<!-- *********************************************************************** -->
+<!-- V) ACKNOWNLEDGEMENTS -->
+<!-- *********************************************************************** -->
+
+<!-- ## Acknowledgements
+
+lipsum
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+--- -->
+
+<!-- *********************************************************************** -->
+<!-- V) CONTACT ME -->
+<!-- *********************************************************************** -->
+
+## Contact Me
+
+Feel free to contact me if you have any doubt!
+
+Samuel Valdes Gutierrez
+
+[![Gmail][gmail-badge]][gmail-url]
+[![Twitter][twitter-badge]][twitter-url]
+[![LinkedIn][linkedin-badge]][linkedin-url]
+[![HackerRank][hackerrank-badge]][hackerrank-url]
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+---
+
+<!-- *********************************************************************** -->
+<!-- VI) SUPPORT -->
+<!-- *********************************************************************** -->
+
+## Support
+
+Whether you use this work to learn something or if you just like my work, please 🙏 consider supporting it. This aid will help me to dedicate more time to create and developed well design open-source projects.
+
+[![Paypal][paypal-badge]][paypal-url]
+[![Ko-Fi][ko-fi-badge]][ko-fi-url]
+[![BuyMeACoffe][buy-me-a-coffee-badge]][buy-me-a-coffee-url]
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+<!-- *********************************************************************** -->
+<!-- VII) LICENSE -->
+<!-- *********************************************************************** -->
+
+---
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
+> You can check out the full license [here](./LICENSE.md)
+
+<p align="right">(<a href="#back-to-top">back to top</a>)</p>
+
+---
+
+<!-- *********************************************************************** -->
+<!-- VIII) FOOTER -->
+<!-- *********************************************************************** -->
+
+<p align="center">
+Developed with ❤️ in Chile 🇨🇱  
+</p>
+
+<!-- *********************************************************************** -->
+<!-- A) MARKDOWN LINKS & IMAGES -->
+<!-- *********************************************************************** -->
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.1) Teachnologies -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- 1) Programming Languages -->
+
+<!-- HTML5 -->
+[html5-badge]: https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge
+[html5-url]: https://dev.w3.org/html5/spec-LC/
+
+<!-- Javascript -->
+[javascript-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge
+[javascript-url]: https://www.javascript.com/
+
+<!-- Python -->
+[python-badge]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge
+[python-url]: https://www.python.org/
+
+<!-- Ruby -->
+[ruby-badge]: https://www.ruby-lang.org/
+[ruby-url]: https://www.ruby-lang.org/
+
+<!-- 2) Frontend Frameworks and Libraries -->
+
+<!-- ReactJS -->
+[react-js-badge]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge
+[react-js-url]: https://reactjs.org/
+
+<!-- React Router -->
+[react-router-badge]: https://img.shields.io/badge/React%20Router-CA4245?logo=reactrouter&logoColor=fff&style=for-the-badge
+[react-router-url]: https://reactrouter.com/
+
+<!-- Axios -->
+[axios-badge]: https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=for-the-badge
+[axios-url]: https://axios-http.com/
+
+<!-- Lodash -->
+[lodash-badge]: https://img.shields.io/badge/Lodash-3492FF?logo=lodash&logoColor=fff&style=for-the-badge
+[lodash-url]:https://lodash.com/
+
+<!-- Bootstrao -->
+[bootstrap-badge]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com/
+
+<!-- Jinja -->
+[jinja-badge]: https://img.shields.io/badge/Jinja-B41717?logo=jinja&logoColor=fff&style=for-the-badge
+[jinja-url]: https://jinja.palletsprojects.com/
+
+<!-- 3) Backend Frameworks and Libraries -->
+
+<!-- Sinatra Ruby -->
+[ruby-sinatra-badge]: (https://img.shields.io/badge/Ruby%20Sinatra-000?logo=rubysinatra&logoColor=fff&style=for-the-badge)
+[ruby-sinatra-url]: https://sinatrarb.com/
+
+<!-- Django -->
+[django-badge]: https://img.shields.io/badge/Django-092E20?logo=django&logoColor=fff&style=for-the-badge
+[django-url]: https://www.djangoproject.com/
+
+<!-- ExpressJS -->
+[express-js-badge]: https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge
+[express-js-url]: https://expressjs.com/
+
+<!-- Socket.io -->
+[socket-io-badge]: https://img.shields.io/badge/Socket.io-010101?logo=socketdotio&logoColor=fff&style=for-the-badge
+[socket-io-url]: https://socket.io/
+
+<!-- JSON Web Tokens -->
+[jwt-badge]: https://img.shields.io/badge/JSON%20Web%20Tokens-000?logo=jsonwebtokens&logoColor=fff&style=for-the-badge
+[jwt-url]: https://jwt.io/
+
+
+<!-- 4) Databases -->
+
+<!-- SQLite -->
+[sqlite-badge]: https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=fff&style=for-the-badge
+[sqlite-url]: https://sqlite.org/
+
+<!-- MongoDB -->
+[mongodb-badge]: https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=for-the-badge
+[mongodb-url]: https://www.mongodb.com/
+
+<!-- 5) Development Environments & Package Managers -->
+
+<!-- NodeJS -->
+[node-js-badge]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[node-js-url]: https://nodejs.org/
+
+<!-- NPM -->
+[npm-badge]: https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=fff&style=for-the-badge
+[npm-url]: https://www.npmjs.com/
+
+<!-- Dotenv -->
+[dotenv-badge]: https://img.shields.io/badge/.ENV-ECD53F?logo=dotenv&logoColor=000&style=for-the-badge
+[dotenv-url]: https://www.dotenv.org/
+
+<!-- RubyGems-->
+[ruby-gems-badge]: https://img.shields.io/badge/RubyGems-E9573F?logo=rubygems&logoColor=fff&style=for-the-badge
+[ruby-gems-url]: https://rubygems.org/
+
+<!-- PyPI -->
+[pypi-badge]: https://img.shields.io/badge/PyPI-3775A9?logo=pypi&logoColor=fff&style=for-the-badge
+[pypi-url]: https://pypi.org/
+
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.2) Github Stats -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- Forks -->
+[forks-badge]: https://img.shields.io/github/forks/BigSamu/Pirate_Crew.svg
+[forks-url]: https://github.com/BigSamu/Pirate_Crew/network/members
+
+<!-- Stargazers -->
+[stars-badge]: https://img.shields.io/github/stars/BigSamu/Pirate_Crew.svg
+[stars-url]: https://github.com/BigSamu/Pirate_Crew/stargazers
+
+<!-- Watchers -->
+[watchers-badge]: https://img.shields.io/github/watchers/BigSamu/Pirate_Crew.svg
+[watchers-url]: https://github.com/BigSamu/Pirate_Crew/watchers
+
+<!-- License -->
+[license-badge]: https://img.shields.io/badge/license-MIT-green
+[license-url]: ./LICENSE.md
+
+<!-- Follow -->
+[github-follow-badge]: https://img.shields.io/github/followers/BigSamu.svg?style=social&label=Follow
+[github-follow-url]: https://github.com/BigSamu?tab=followers
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.3) Contact -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- Gmail -->
+[gmail-badge]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-url]: mailto:valdesgutierrez@gmail.com
+
+<!-- Twitter -->
+[twitter-badge]: https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white
+[twitter-url]: https://twitter.com/BigSamu5
+
+<!-- LinkedIn -->
+[linkedin-badge]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-badge-small]: https://img.shields.io/badge/--linkedin?label=LinkedIn&logo=LinkedIn&style=social
+[linkedin-url]: https://www.linkedin.com/in/samuel-valdes-gutierrez
+
+<!-- HackerRank -->
+[hackerrank-badge]: https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white
+[hackerrank-badge-small]: https://img.shields.io/badge/--hackerrank?label=HackerRank&logo=hackerrank&style=social
+[hackerrank-url]: https://www.hackerrank.com/BigSamu
+
+<!-- Ask Me Anything -->
+[ama-badge]: https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg
+[ama-url]: #contact-me
+
+<!-- Say Thanks -->
+[say-thanks-badge]: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
+[say-thanks-url]: https://saythanks.io/to/BigSamu
+
+<!-- ----------------------------------------------------------------------- -->
+<!-- A.4) Support -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- Paypal -->
+[paypal-badge]: https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white
+[paypal-url]: https://www.paypal.com/paypalme/BigSamu87/2
+
+<!-- Ko-Fi -->
+[ko-fi-badge]: https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white
+[ko-fi-url]: https://ko-fi.com/BigSamu
+
+<!-- Buy Me a Coffee -->
+[buy-me-a-coffee-badge]: https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black
+[buy-me-a-coffee-url]: https://www.buymeacoffee.com/BigSamu
+
+<!-- *********************************************************************** -->
+<!-- B) INSTALLATION INSTRUCTIONS ENVIRONMENTS & PACKAGE MANAGERS -->
+<!-- *********************************************************************** -->
+
+<!-- Node.js and NPM -->
+[install-node-js-and-npm-url]: https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba
+
+<!-- Ruby, Rubygems and Bundler -->
+[install-ruby-and-bundler]: https://gist.github.com/MichaelCurrin/fb758aea4d35e03b9ed093afddf4e7ec
+
+<!-- Python and Pip -->
+[install-python-and-pip]: https://realpython.com/installing-python/
